@@ -1,0 +1,30 @@
+:root {
+  --black: #01040c;
+  --white: #fff;
+  --white50: #ffffff50;
+  --gray60: #1e1e1f60;
+  --blue: #10245c;
+  --yellow: #fde513;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+
+  background-color: var(--black);
+}
+
+*::selection {
+  background-color: var(--blue);
+}
+
+.content-wrapper {
+  max-width: 1370px;
+  margin: 0 auto;
+  padding: 0 25px;
+}

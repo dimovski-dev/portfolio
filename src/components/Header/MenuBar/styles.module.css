@@ -1,0 +1,34 @@
+.navbarList {
+  display: flex;
+  gap: 120px;
+}
+
+.navbarItem {
+  list-style: none;
+}
+
+.navbarLink,
+.navbarLinkActive {
+  color: var(--white);
+  font-weight: 300;
+  font-size: 36px;
+  text-decoration-line: underline;
+  text-underline-offset: 10px;
+  text-decoration-color: var(--yellow);
+}
+
+.navbarLinkActive {
+  text-decoration: none;
+  color: var(--white50);
+}
+
+@media (max-width: 950px) {
+  .navbarList {
+    margin-top: 55px;
+  }
+
+  .navbarLink,
+  .navbarLinkActive {
+    font-size: 30px;
+  }
+}

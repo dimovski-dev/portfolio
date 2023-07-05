@@ -1,0 +1,39 @@
+.skillWrapper {
+  position: relative;
+
+  width: 215px;
+  height: 220px;
+
+  border-radius: 14px;
+
+  background-color: var(--gray60);
+
+  transition: 0.3s all;
+
+  border: 2px solid var(--gray60);
+}
+
+.skillWrapper:hover {
+  border: 2px solid var(--yellow);
+}
+
+.skillName {
+  display: grid;
+  place-items: center;
+
+  height: 100%;
+
+  color: var(--white);
+  font-weight: 300;
+  font-size: 36px;
+}
+
+@media (max-width: 840px) {
+  .skillWrapper {
+    height: 80px;
+  }
+
+  .skillName {
+    font-size: 28px;
+  }
+}

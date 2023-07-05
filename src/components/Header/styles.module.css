@@ -1,0 +1,27 @@
+.headerWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 120px;
+}
+
+.title {
+  color: var(--white);
+  font-weight: 700;
+  font-size: 36px;
+}
+
+@media (max-width: 955px) {
+  .headerWrapper {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .title {
+    text-align: center;
+    text-align-last: center;
+    font-size: 32px;
+  }
+}

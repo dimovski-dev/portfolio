@@ -1,0 +1,24 @@
+.contactTitle,
+.contactLink {
+  color: var(--white);
+  font-weight: 300;
+  font-size: 36px;
+}
+
+.contactTitle {
+  color: var(--white50);
+}
+
+.contactLink {
+  text-decoration: none;
+}
+
+@media (max-width: 600px) {
+  .contactItem {
+    display: grid;
+  }
+  .contactLink,
+  .contactTitle {
+    font-size: 24px;
+  }
+}
