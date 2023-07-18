@@ -16,14 +16,14 @@ export const Contacts = () => {
                     linkAlias: "@0xdimovski"
                 },
                 {
-                    title: "Github",
-                    link: "https://github.com/dimovski-dev",
-                    linkAlias: "@dimovski-dev"
-                },
-                {
                     title: "Linkedin",
                     link: "https://www.linkedin.com/in/dimovskii/",
                     linkAlias: "@dimovskii"
+                },
+                {
+                    title: "Github",
+                    link: "https://github.com/dimovski-dev",
+                    linkAlias: "@dimovski-dev"
                 },
                 {
                     title: "Email",
