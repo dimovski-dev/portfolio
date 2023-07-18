@@ -21,6 +21,11 @@ export const Contacts = () => {
                     linkAlias: "@dimovski-dev"
                 },
                 {
+                    title: "Linkedin",
+                    link: "https://www.linkedin.com/in/dimovskii/",
+                    linkAlias: "@dimovskii"
+                },
+                {
                     title: "Email",
                     link: "kwenkazantsevv@gmail.com",
                     linkAlias: "kwenkazantsevv@gmail.com"
