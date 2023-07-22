@@ -1,0 +1,44 @@
+.errorWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+
+  text-align: center;
+}
+
+.title {
+  color: var(--yellow);
+  font-weight: 700;
+  font-size: 96px;
+  font-style: normal;
+  line-height: normal;
+}
+
+.subtitle {
+  color: var(--white);
+  font-weight: 400;
+  font-size: 36px;
+  font-style: normal;
+  line-height: normal;
+}
+
+.button {
+  padding: 10px 30px;
+
+  color: var(--white);
+  font-weight: 400;
+  font-size: 24px;
+  font-style: normal;
+  line-height: normal;
+
+  border: 1px solid var(--yellow);
+  border-radius: 12px;
+
+  background: none;
+
+  cursor: pointer;
+}
